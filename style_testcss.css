@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&family=Montserrat:wght@700&display=swap');
+*{
+    box-sizing:border-box;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.textured-background {
+    background-image: url(_resources/fondo-textura.jpg);
+    background-size: cover;
+}
+
+.poster {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 3px #49AECA;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(54,54,54,1) 95%, rgba(48,48,48,1) 100%);
+}
+
+.poster-link {
+    text-decoration: underline #F0FEFE;
+    outline: none;
+    display: inline-block;
+    color:#F0FEFE
+}
+
+.navigation {
+    margin: 10px 40px;
+    font-family: 'Bree Serif', serif;
+    background-color: rgba(73, 174, 202, 0.7) ;
+    
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+.index {
+    outline: none;
+    text-decoration: none;
+    display: inline;
+    width: 10%;
+    margin-right: 2.5%;
+    margin-left: 2.5% ;
+    text-align: center;
+    line-height: 1em;
+    color: black;
+}
+
+li:last-child .index {
+    margin-right: 1em;
+}
+
+.index:link, .index:visited, .index:focus {
+    line-height: 2em;
+}
+
+.index:hover {
+    background: #036e8b;
+    line-height: 100%;
+}
+
+.index:active {
+    background:#EB1F82;
+    color: #B2C660 ;
+}
+
+.background {
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+}
+
+.box {
+    display: inline-block;
+    flex-direction: row;
+    padding: 5px 10px;
+}
+
+.lettering {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    display: inline-block;
+    text-shadow: 3px 3px #262b2b;
+    margin: 1.3em;
+    margin-right: 21px;
+    border: 1px solid #F0FEFE;
+}
+
+.lettering1 {
+    position: absolute;
+    top: 84%;
+    left:4%;
+    text-decoration: none;
+    color:rgb(73, 174, 202)
+}
