@@ -1,8 +1,10 @@
+/*ejercicio del 27/01/2021*/
 .padre {
     background-color: blue;
     width: 500px;
     height: 500px;
     display: flex;
+    overflow-x: scroll;
 }
 
 .hijo {
@@ -10,7 +12,6 @@
     border: 2px solid black;
     width: 100px;
     height: 100px;
+    flex-shrink: 0;
 }
-.hijo1 {
-    margin-left: auto;
-}   
+
