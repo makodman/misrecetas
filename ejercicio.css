@@ -1,17 +1,28 @@
-/*ejercicio del 27/01/2021*/
-.padre {
-    background-color: blue;
-    width: 500px;
-    height: 500px;
+/*ejercicio del 28/01/2021*/
+* {box-sizing: border-box;}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+    background-color: yellow;
     display: flex;
-    overflow-x: scroll;
+    
 }
 
-.hijo {
-    background-color: yellow;
-    border: 2px solid black;
-    width: 100px;
-    height: 100px;
+section {
+    background-color: red;
+    flex-shrink: 0;
+    width: 60%;
+    height: 300px;
+    
+    
+}
+
+aside {
+    background-color: blue;
+    width: 40%;
+    height: 300px;
     flex-shrink: 0;
 }
-
