@@ -1,1 +1,51 @@
 @import 'basic.css';
+@import 'reset.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'layout.css';
+@import 'text.css';
+
+.nav-main ul {
+    display: flex;
+    color: grey;
+}
+
+.nav-main li {
+    margin-right: .5em;
+}
+
+.nav-main a{
+    color: black;
+}
+
+.nav-main a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    display: flex;
+}
+
+#main section {
+    width: 70%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main section img {
+    width: 100%;
+    height: auto;
+}
+
+#main section div {
+    background-color: darkblue;
+    width: 49%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#main aside {
+    background-color: rgb(20, 220, 97);
+    display: flex;
+}
