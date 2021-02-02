@@ -4,7 +4,7 @@
 @import 'footer.css';
 @import 'layout.css';
 @import 'text.css';
-
+@import 'grid.css';
 .nav-main ul {
     display: flex;
     color: grey;
@@ -22,30 +22,7 @@
     text-decoration: underline;
 }
 
-#main {
-    display: flex;
-}
-
-#main section {
-    width: 70%;
-    background-color: cornflowerblue;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#main section img {
-    width: 100%;
+section img {
+    max-width: 100%;
     height: auto;
-}
-
-#main section div {
-    background-color: darkblue;
-    width: 49%;
-    margin-right: 5px;
-    margin-bottom: 5px;
-}
-
-#main aside {
-    background-color: rgb(20, 220, 97);
-    display: flex;
 }
