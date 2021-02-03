@@ -1,0 +1,16 @@
+.nav-main ul {
+    display: flex;
+    color: grey;
+}
+
+.nav-main li {
+    margin-right: .5em;
+}
+
+.nav-main a{
+    color: black;
+}
+
+.nav-main a:hover {
+    text-decoration: underline;
+}
