@@ -1,5 +1,9 @@
-.font-small{
+.font-xs {
     font-size: 10px;
+}
+
+.font-small{
+    font-size: 12px;
 }
 
 .font-base {
@@ -7,14 +11,18 @@
 }
 
 .font-md {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .font-large {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .font-big {
+    font-size: 20px;
+}
+
+.font-xl {
     font-size: 22px;
 }
 

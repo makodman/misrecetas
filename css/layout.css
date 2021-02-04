@@ -28,5 +28,9 @@
 }
 
 .pd-1 {
-    padding: .5;
+    padding: 0 1em;
+}
+
+.pd-top-05 {
+    padding-top: .5em;
 }

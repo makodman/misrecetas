@@ -37,7 +37,7 @@
         width: calc(33.33% - 1em);
     }
     
-    .col-mob-4 {
+    .col-mob-8 {
         width: calc(66.66% - 1em);
     }
 }
@@ -71,7 +71,7 @@
         width: calc(33.33% - 1em);
     }
 
-    .col-desk-4 {
+    .col-desk-8 {
         width: calc(66.66% - 1em);
     }
 }
@@ -105,7 +105,7 @@
         width: calc(33.33% - 1em);
     }
 
-    .col-tab-4 {
+    .col-tab-8 {
         width: calc(66.66% - 1em);
     }
 }
