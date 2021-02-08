@@ -1,0 +1,7 @@
+.link-reg {
+    color: #CE84F0;
+}
+
+.link-reg:hover {
+    text-decoration: underline;
+}

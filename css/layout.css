@@ -11,6 +11,15 @@
     flex-direction: row;
 }
 
+.row-full {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-right: -50vw;
+    margin-left: -50vw;
+}
+
 .mb05 {
     margin-bottom: .5em;
 }
@@ -27,10 +36,18 @@
     margin-bottom: 3em;
 }
 
+.mb-px {
+    margin-bottom: 10px;
+}
+
 .pd-1 {
-    padding: 0 1em;
+    padding: 1em;
 }
 
 .pd-top-05 {
     padding-top: .5em;
+}
+
+.separator-block {
+    padding: 1em ;
 }
