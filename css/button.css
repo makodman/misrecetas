@@ -5,13 +5,13 @@
 
 
 .btn-prim {
-    background-color: lawngreen;
-    color:lightcoral;
+    background-color:rgba(143, 62, 48, .7);
+    color:#EDECE8;
 }
 
 .btn-prim:hover {
-    background-color: rgba(89, 89, 189, .4);
-    color:orange;
+    background-color: rgba(212, 212, 212, .8);
+    color:#000;
     cursor:pointer;
 }
 
